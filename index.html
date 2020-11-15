@@ -7,7 +7,7 @@
     <meta name="author" content="Roxi Stan" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Test</title>
+    <title>Online Shoppin - Test</title>
     <link rel="stylesheet" type="text/css" href="resources/main.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"/>
       <script src="bundles/jquery/jquery-3.5.1.min.js"></script>
@@ -21,9 +21,9 @@
           </div>
         <div class="left-wrapper-header">
           <h1>Shop at</h1>
-          <h1>The right speed:</h1>
-          <div>The Winter Collection</div>
-          <div>Liberated movement meets seamlles support</div>
+          <h1>The right speed</h1>
+          <div>The Winter Collection:</div>
+          <div>Liberated movement meets seamless support</div>
 
           <button type="button">SHOP</button>
         </div>
@@ -38,7 +38,7 @@
       </nav>
 
       <div class="gallery-coats">
-        <!-- <div class="box-1" id="button-open">
+        <!-- <div class="box-1" data-id=1>
           <div class="icon-coat"></div>
           <div class="wrapper-text-box">
             <div>Top Coat</div>
@@ -66,14 +66,16 @@
       <!-- Overlay Page -->
    
 
-      <div class="overlay" id="wrapperoverlay">
-        <div class="icon-close" id="button-close"><img src="assets/close.png" alt="close"></div>
+      <div class="overlay">
+        <div class="icon-close"><img src="assets/close.png" alt="close"></div>
+
         <div class="overlay-content-wrapper">
-        
+        <div class="image-overlay" data-img="coat-4.jpg"></div>
           <div class="box-overlay">
-          <h3>Blazer Coat</h3>
-          <div>$60</div>
-          <div>Your size</div>
+          
+          <h3 class="name-overlay">Blazer Coat</h3>
+          <div class="price-overlay">$60</div>
+          <div class="your-size">Your size</div>
           <div class="size">
             <div>S</div>
             <div>M</div>
@@ -94,17 +96,16 @@
             </div>
            
             <div>
-              <span>100%polyester</span>
-              <span>Poland</span>
+              <span class="composition-overlay">100%polyester</span>
+              <span class="country-overlay">Poland</span>
             </div>
           </div>
 
-          <div>Care</div>
-          <div>Follow the  care.....</div>
+          <div class="care">Care</div>
+          <div class="care-overlay">Follow the  care.....</div>
 
           <button class="button-dark" type="button">Add to Cart</button>
         </div>
-
         </div>
       </div>
 
